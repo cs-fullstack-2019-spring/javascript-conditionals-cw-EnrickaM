@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+
+
+var card1 = parseInt(prompt("Enter card1"));
+var card2 =  parseInt(prompt("Enter card2"));
+var card3 = parseInt(prompt("Enter card3"));
+
+var total = card1 + card2 + card3;
+
+if(total == 21){
+    console.log("BLACKJACK");
+}
+else if (total >21) {
+    console.log("BUST");
+}
+else
+{
+    console.log("The total is " + total);
+}
+
+
+
+</script>
+
+</body>
+</html>
